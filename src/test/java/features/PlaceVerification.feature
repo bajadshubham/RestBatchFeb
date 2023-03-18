@@ -25,3 +25,4 @@ Examples:
  When user calls "deletePlaceAPI" with "post" http request
  Then the API should return a status code 200
  And "status" is response body is "OK"
+ And "scope" is response body is "APP"
